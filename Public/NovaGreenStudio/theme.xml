@@ -1,0 +1,56 @@
+<theme>
+    <name>NovaGreenStudio</name>
+    <version>3</version>
+    <build>20140823</build>
+    <description>Nova Theme For GreenStudio</description>
+    <author>ZTS</author>
+    <preview>/NovaGreenStudio/preview.jpg</preview>
+    <preview_big>/NovaGreenStudio/preview_big.jpg</preview_big>
+    <copyright>GreenStudio 2014</copyright>
+    <tpl_view>Application/Home/View/NovaGreenStudio</tpl_view>
+    <tpl_static>Public/NovaGreenStudio</tpl_static>
+    <introduction>GreenStudio 2015主题</introduction>
+    <post>
+        <single>
+            <name>文章</name>
+            <tpl>single</tpl>
+        </single>
+        <page>
+            <name>无侧栏</name>
+            <tpl>page</tpl>
+        </page>
+        <guestbook>
+            <name>留言板</name>
+            <tpl>guestbook</tpl>
+        </guestbook>
+        <joinus>
+            <name>加入我们</name>
+            <tpl>joinus</tpl>
+        </joinus>
+    </post>
+    <config>
+        <kv>
+            <title>
+                <title>显示标题</title>
+                <type>text</type>
+                <value>天气预报</value>
+
+            </title>
+
+            <showplace>
+                <title>显示</title>
+                <type>checkbox</type>
+                <options>
+                    <true>显示</true>
+                    <false>不显示</false>
+                </options>
+                <value>true</value>
+
+            </showplace>
+
+
+        </kv>
+
+
+    </config>
+</theme>
